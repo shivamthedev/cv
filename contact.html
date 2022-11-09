@@ -6,16 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" / <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
   <title>Contacts</title>
+  <style>
+    body{
+      background-color:#E5E3C9;
+    }
+    hr{
+      width: 20%;
+      border-style: none;
+      border-top: dotted;
+      background-color: none;
+      border-color: grey;
+      border-width: 5px;
+    }
+  </style>
 </head>
 
-<body style="background-color:#E5E3C9;">
-  <h1>My Contacts</h1>
-  <hr width="30%" align="left" size="6" noshade>
-  <p>
-    <strong>Email:</strong><a href="mailto:me.shivam.dev@gmail.com">me.shivam.dev@gmail.com</a><br />
-    <strong>Phone:</strong> <a href="tel:6202883679">6202883679</a>
-  </p>
-  <h3>Contact Form</h3>
+<body>
+  <h1>Contact me</h1>
+  <hr align="left">
   <form action="mailto:me.shivam.dev@gmail.com" method="post" enctype="text/plain">
     <label for="name">Name: </label>
     <input type="text" name="userName" id="userName" required><br /><br />
@@ -24,7 +32,7 @@
     <label for="Phone">Phone: </label>
     <input type="tel" name="telephone" id=""><br><br>
     <label for="Query">Your Query</label><br>
-    <textarea name="textarea" id="" cols="30" rows="10"></textarea><br>
+    <textarea name="textarea" id="" cols="120" rows="30"></textarea><br>
     <input type="submit" value="Submit">
   </form>
 </body>
