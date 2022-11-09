@@ -1,0 +1,32 @@
+body{
+    background-color:#E5E3C9;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+  }
+  hr{
+    background-color: none;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    width: 5%;
+    border-width: 5px;
+  }
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div{
+    text-align: center;
+  }
+  ul{
+    display: inline-block;
+    text-align: left;
+  }
+  ol{
+    display: inline-block;
+    text-align: left;
+  }
+  .contact{
+    width: 20%;
+  }
