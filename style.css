@@ -30,3 +30,11 @@ body{
   .contact{
     width: 20%;
   }
+  h1{
+    color: #3da780;
+    text-shadow: 2px 2px 5px black;
+  }
+  h3{
+    color: #3da780;
+    /* text-shadow: 2px 2px; */
+  }
