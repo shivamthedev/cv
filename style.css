@@ -2,6 +2,7 @@ body{
     background-color:#DEF5E5;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
+    font-family: 'Merriweather', serif;
   }
   hr{
     background-color: none;
@@ -33,8 +34,10 @@ body{
   h1{
     color: #3da780;
     text-shadow: 2px 2px 5px black;
+    font-family: 'Sacramento', cursive;
   }
   h3{
     color: #3da780;
     /* text-shadow: 2px 2px; */
+    font-family: 'Montserrat', sans-serif;
   }
