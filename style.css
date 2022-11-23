@@ -1,8 +1,7 @@
 body{
     background-color:#DEF5E5;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-family: 'Merriweather', serif;
+    font-family:cursive;
   }
   hr{
     background-color: none;
@@ -16,7 +15,7 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   div{
     text-align: center;
   }
@@ -34,10 +33,35 @@ body{
   h1{
     color: #3da780;
     text-shadow: 2px 2px 5px black;
-    font-family: 'Sacramento', cursive;
+    font-family:sans-serif;
   }
   h3{
     color: #3da780;
     /* text-shadow: 2px 2px; */
-    font-family: 'Montserrat', sans-serif;
   }
+
+  .contacts{
+    text-decoration: none;
+    color: #3da780;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 11px;
+  }
+
+.contacts:hover{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#steamunlocked{
+  text-decoration: none;
+  color: #3da780;
+  padding: 5px;
+}
+
+#steamunlocked:hover{
+  background-color: rgb(3, 131, 3);
+  color: black;
+  border-radius: 5px;
+}
